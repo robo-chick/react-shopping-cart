@@ -1,3 +1,6 @@
-import React, {createContext} from 'react';
+import {createContext} from 'react';
 
-export const ProductContext = createContext();
+const ProductContext = createContext();
+console.log(ProductContext);
+
+export default ProductContext;
